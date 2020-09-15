@@ -19,24 +19,9 @@
 
 ## Basic Coding
 
-Imagine you’re working in a company and you’re told to make a design system and transaction flow. How would you make the most suitable for following users and case:
+![Design System and Transaction Flow](FLOWCHARTS.svg)
 
-1. User Side
-    - User register
-    - User input the address
-    - User choose the products to be purchased with subscription and/or one-time purchase scheme
-    - User pay the bill
-    - User skip the delivery due to certain reasons (ex: They have other agenda that prevent them to receive the delivered goods)
-    - User cancel the order
-2. Supplier Side
-    - Supplier register as seller
-    - Supplier create the store and complete the address
-    - Supplier create products that can be purchased either daily or one-time purchase
-    - Supplier determine the price of each product
-    - Supplier determine the selling area
-3. Additional:
-    - If a product can be sold by more than one seller, define the correct algorithm to determine which order to be sent from which seller (assuming the closest mileage and route)!
-    - There is a cut-off time everyday, which is the latest time an order can be placed for the next day delivery. All orders placed beyond cut-off time will automatically delivered on the day after tomorrow.
+Each product has an id or tag that can be used to differentiate the order to be sent by each seller.
 
 ## Algorithm
 
